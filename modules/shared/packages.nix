@@ -47,6 +47,15 @@ with pkgs; [
   unrar
   unzip
   zsh-powerlevel10k
+
+  # Doom Emacs dependencies
+  cmake
+  gnumake
+  libtool
+  shellcheck
+  pandoc
+  graphviz
+  nixfmt-classic
   
   # Development tools
   curl

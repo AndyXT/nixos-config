@@ -38,7 +38,9 @@ let name = "AndyXT";
       # Ripgrep alias
       alias search=rg -p --glob '!node_modules/*'  $@
 
-      # Emacs is my editor
+      # Doom Emacs
+      export DOOMDIR="$HOME/.doom.d"
+      export PATH="$HOME/.emacs.d/bin:$PATH"
       export ALTERNATE_EDITOR=""
       export EDITOR="emacsclient -t"
       export VISUAL="emacsclient -c -a emacs"
